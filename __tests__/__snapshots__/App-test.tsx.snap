@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RCTSafeAreaView>
+  <View
+    style={
+      {
+        "backgroundColor": "#FFFFFF",
+        "flexDirection": "column",
+        "height": 200,
+        "width": "100%",
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "testUri": "../../../src/assets/images/logo.png",
+        }
+      }
+      style={
+        {
+          "height": 150,
+          "width": "100%",
+        }
+      }
+      testID="logo"
+    />
+    <Text
+      style={
+        {
+          "color": "#000000",
+          "fontSize": 35,
+          "fontWeight": "bold",
+          "textAlign": "center",
+        }
+      }
+    >
+      Bank List
+    </Text>
+  </View>
+  <ActivityIndicator
+    color="#00A3E0"
+    size="large"
+  />
+</RCTSafeAreaView>
+`;

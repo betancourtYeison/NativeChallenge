@@ -11,7 +11,7 @@ export const Item = ({ age, bankName, description, url }: Bank) => (
       <Text style={style.subtitle}>{description}</Text>
     </View>
     <View style={style.itemRight}>
-      <Image style={style.logo} source={{ uri: url }} />
+      <Image testID="logo" style={style.logo} source={{ uri: url }} />
     </View>
   </View>
 );
