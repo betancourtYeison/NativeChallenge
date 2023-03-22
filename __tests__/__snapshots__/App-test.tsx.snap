@@ -1,7 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<RCTSafeAreaView>
+<RCTSafeAreaView
+  style={
+    {
+      "backgroundColor": "#00A3E0",
+    }
+  }
+>
   <View
     style={
       {
