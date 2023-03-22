@@ -1,9 +1,7 @@
-/** Import Styles **/
 import { StyleSheet } from 'react-native';
 
 import { theme } from '../../assets/colors/theme';
 
-/** Create an object style **/
 const style = StyleSheet.create({
   item: {
     flexDirection: 'row',
@@ -38,5 +36,4 @@ const style = StyleSheet.create({
   },
 });
 
-/** Export component style **/
 export default style;

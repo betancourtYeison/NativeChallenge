@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { View, FlatList, Text, ActivityIndicator } from 'react-native';
+import { View, ActivityIndicator, Text, FlatList } from 'react-native';
 
 import { addBanks } from '../../redux/features/banksSlice';
 import { getBanks } from '../../redux/api';
@@ -16,6 +16,7 @@ export const Body = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [errorApi, setErrorApi] = useState('');
 
+  /* A function that is called when the component is mounted. */
   const getDataFromApi = useCallback(async () => {
     try {
       setIsLoading(true);

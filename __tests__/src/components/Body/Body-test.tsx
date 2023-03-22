@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { screen, cleanup, waitFor, act } from '@testing-library/react-native';
+import { screen, cleanup, waitFor } from '@testing-library/react-native';
 import axios from 'axios';
 
 import { Body } from '../../../../src/components';
