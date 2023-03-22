@@ -1,13 +1,15 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
 import { theme } from '../../assets/colors/theme';
+
+const { height: windowHeight } = Dimensions.get('window');
 
 const style = StyleSheet.create({
   container: {
     flexDirection: 'row',
     backgroundColor: theme.lighter,
     width: '100%',
-    height: '100%',
+    height: windowHeight - 250,
   },
   item: {
     backgroundColor: theme.white,

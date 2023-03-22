@@ -17,13 +17,14 @@ import { theme } from './src/assets/colors/theme';
 
 const App = () => {
   const isDarkMode = useColorScheme() === 'dark';
+  const backgroundStyle = { backgroundColor: false ? theme.darker : theme.primary };
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <SafeAreaView>
+        <SafeAreaView style={backgroundStyle}>
           <StatusBar
             barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-            backgroundColor={isDarkMode ? theme.darker : theme.primary}
+            backgroundColor={backgroundStyle.backgroundColor}
           />
           <Header />
           <Body />

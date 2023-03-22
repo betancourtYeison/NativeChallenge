@@ -5,16 +5,20 @@ Initial development of YaGanaste React Native mobile app
 <p align="center" >
   <kbd>
     <img
-      src="https://github.com/betancourtYeison/NativeChallenge/blob/master/src/assets/images/iOS.png"
+      src="https://github.com/betancourtYeison/NativeChallenge/blob/master/src/assets/images/iOS.png?raw=true"
       title="iOS"
       float="left"
+      width="235"
+      height="511"
     >
   </kbd>
   <kbd>
     <img
-      src="https://github.com/betancourtYeison/NativeChallenge/blob/master/src/assets/images/Android.png"
+      src="https://github.com/betancourtYeison/NativeChallenge/blob/master/src/assets/images/Android.png?raw=true"
       title="Android"
-      float="left"
+      float="right"
+      width="235"
+      height="511"
     >
   </kbd>
   <br>
@@ -52,6 +56,8 @@ With significant Android native changes, it is sometimes necessary to clean the 
 ## Testing
 
 The app is tested in a variety of ways with unit and integration testing.
+
+- `yarn test` - Test components
 
 ### Jest & Snapshots
 

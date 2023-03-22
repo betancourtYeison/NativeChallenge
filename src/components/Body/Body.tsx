@@ -48,6 +48,7 @@ export const Body = () => {
           data={banksData}
           renderItem={({ item }) => <Item {...item} />}
           keyExtractor={(item, index) => `${index}-${item.bankName}`}
+          showsVerticalScrollIndicator={false}
         />
       )}
     </View>
